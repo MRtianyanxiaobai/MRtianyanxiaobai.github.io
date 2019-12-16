@@ -134,7 +134,7 @@
             S.Drawing.init('.canvas');
             document.body.classList.add('body--ready');
 			//想说的话
-            S.UI.simulate("红红|I'm|小强|Nice|to|Meet|You|#countdown 3|#time");
+            S.UI.simulate("红红|I'm|小强|Nice|to|Meet|You|Now|is|#time");
             S.Drawing.loop(function () {
                 S.Shape.render();
             });
@@ -260,7 +260,7 @@
                             } else {
                                 S.Shape.switchShape(S.ShapeBuilder.letter(index), true);
                             }
-                        }, 1500, value, true);
+                        }, 2000, value, true);
                         break;
 
                     case 'rectangle':
